@@ -1,0 +1,52 @@
+[35m[Appium][39m Welcome to Appium v2.4.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m49767[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Appium REST http interface listener started on http://0.0.0.0:49767/wd/hub
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://192.168.0.104:49767/wd/hub
+[35m[Appium][39m 	http://127.0.0.1:49767/wd/hub (only accessible from the same host)
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.42.2 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:systemPort":8268,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:platformVersion":"11","appium:deviceId":"7998b094","appium:udid":"7998b094","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:appActivity":".Settings","appium:deviceName":"realme RMX1971 (Android 11)","platformName":"Android","appium:appPackage":"com.android.settings"},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"7998b094","appium:deviceName":"realme RMX1971 (Android 11)","appium:newCommandTimeout":1800,"appium:platformName":"ANDROID","appium:platformVersion":"11","appium:systemPort":8268,"appium:udid":"7998b094","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\A455L\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@814a][0m Appium v2.4.1 creating new AndroidUiautomator2Driver (v2.42.2) session
+[38;5;16m[AppiumDriver@814a][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@814a][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@814a][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.0
+[38;5;48m[AndroidUiautomator2Driver@0958][0m The following provided capabilities were not recognized by this driver:
+[38;5;48m[AndroidUiautomator2Driver@0958][0m   deviceId
+[38;5;48m[AndroidUiautomator2Driver@0958 (cfc043ac)][0m Session created with session id: cfc043ac-26ac-426d-8244-536633e15e54
+[38;5;48m[AndroidUiautomator2Driver@0958 (cfc043ac)][0m Starting 'com.android.settings' directly on the device
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\A455L\AppData\Local\Android\Sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\A455L\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\A455L\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[38;5;80m[AndroidDriver][0m Using device: 7998b094
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\A455L\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@0958 (cfc043ac)][0m Relaxing hidden api policy
+[38;5;80m[AndroidDriver][0m No app sent in, not parsing package/activity
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\A455L\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[38;5;64m[ADB][0m 'C:\Users\A455L\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m 'C:\Users\A455L\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.4.apk' is signed with the default certificate
+[38;5;48m[AndroidUiautomator2Driver@0958 (cfc043ac)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[AndroidUiautomator2Driver@0958 (cfc043ac)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;48m[AndroidUiautomator2Driver@0958 (cfc043ac)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m5375 ms - 4016[39m
+[38;5;0m[HTTP][0m [90m[39m
